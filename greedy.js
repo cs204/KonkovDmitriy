@@ -40,13 +40,13 @@ function buildItems()
 	for (let i = 0; i < values.length; i++)
 	{
 		items.push({
-			name:names[i],
-			value: values[i],
-			weight: weights[i],
-			unitPrice: values[i] / weights[i]
-		})
-	}
-	return items
+		name:names[i],
+		value: values[i],
+		weight: weights[i],
+		unitPrice: values[i] / weights[i]
+	})
+}
+return items
 }
 
 function cmpValues(itemA, itemB)
