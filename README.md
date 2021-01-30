@@ -1,2 +1,0 @@
-# KonkovDmitriy
-psets
